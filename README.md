@@ -4,6 +4,10 @@ fzf :heart: preview
 
 ## Preview Everywhere
 
+This fork checks if the buffer is a scratch buffer and save it's contents so a preview can be shown.
+This allows preview, for example, of generated fles not saved yet or manpages.
+
+
 The preview functionality of **fzf** in vim is great. However, only limited
 commands of **fzf.vim** provide a preview window that you can press `ctrl-/` key
 to toggle. If you want to enhance your **fzf.vim** by enabling the preview
